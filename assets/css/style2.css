@@ -1,0 +1,482 @@
+@font-face {
+    font-family: yekan;
+    src: url('../fonts/BYekan.eot?#') format('eot'), /* IE6–8 */
+    url('../fonts/BYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/BYekan.ttf') format('truetype');
+    /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+body {
+    font-family: yekan;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    direction: rtl;
+}
+
+.box{
+    border-bottom: 1px solid #e5e5e5!important;
+    padding-top: 2px ;
+}
+#path{
+    height: 50px;
+    padding-top: 10px;
+        padding-right: 10px;
+     border-radius: 4px;
+        border: 1px solid #e5e5e5!important;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #999;
+    
+}
+.panel{
+    border: none;
+}
+.error_div{background-color: #f4c5cd;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+}
+#search_result{
+    min-height: 500px;
+        margin-top: 10px;    
+}
+#search_div{
+    padding-left: 10px;
+        margin-top: 10px;
+}
+#btnsearch{cursor: pointer;color:#999; }
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px
+}
+.plus{
+    padding-left: 1px;
+        position: relative;
+        bottom: -2px;
+}
+#add_btn{
+}
+.myimg{
+     width: 100%;
+    height: 300px;
+}
+#img_div{
+    padding:0px;
+    
+}
+#search{
+    display: table-cell;
+    border: none;
+    box-shadow: none;
+}
+.mybtn{display: inline-block;padding: 2px;margin: 2px;border: 1px solid #555;border-radius: 5px;width:48%;
+    background: #e3b0f9;
+        transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+       
+}
+a.mybtn:hover{background: #ba68c8; color: white;}
+#op{
+    padding: 1px;
+}
+.card {
+    margin-left: 10px;
+    text-align: right;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 1px solid #b4b2b2!important;
+    background: #ffffff;
+    overflow: hidden;
+  
+}
+.card-date{
+    position: absolute;
+    top: 110px;
+    color: #aaa;
+}
+
+.price_div{
+    border-top: 1px solid #aaa;
+        margin-left: 3px;
+        margin-right: 3px;
+    padding: 5px;
+
+}
+#logout_container {
+     width: 112px;
+    height: 35px;
+    display: inline-block;
+}
+#logout{    padding-left: 4px;
+    padding-right: 4px;}
+
+#loading{display: inline-block;}
+#loading img{ height: 33px;
+    width: 33px;
+   }
+#city_btn{
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+#loading {
+  z-index: 10;
+}
+.select_btn{
+    display: inline-block;
+   margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #555;
+    background-color: white;
+    border-color: #927b88;
+    padding: 7px 15px;
+        box-shadow: inset 0px 2px 3px 0px # ccc;
+
+}
+a.select_btn{text-decoration: none;}
+
+a.select_btn:hover{  color:#555;      box-shadow: inset 0px -2px 3px 0px #ccc;
+}
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.maincard {
+    padding: 0px 10px 10px 10px;
+}
+
+.imgsec {
+    padding: 2px 2px 0px 2px;
+  
+}
+#accept{
+        padding-right: 5px;
+
+}
+
+#myadv_title{
+    padding-right: 13px;
+}
+.cardimg {
+    height: 150px;
+    width: 100%
+}
+.card-text{
+    line-height: 2;
+}
+
+.txtsec {
+    padding: 5px;
+    height: 150px;
+    overflow: hidden;
+
+}
+.loadingmessage img{
+       height: 44px;
+    width: 44px;
+    position: relative;
+    top: -2px;
+}
+.loadingmessage{
+    text-align: center;
+}
+.sidbar{
+    padding: 0px;
+}
+
+#mycontainer {
+        min-height: 500px;
+
+    padding: 0px 10px 10px 0px;
+}
+.container{
+    padding-top: 10px;
+    margin: 0px;
+    width: 100%;
+}
+#mincontainer{
+     min-height: 500px;
+}
+.panel-group{
+    margin-top: 10px;
+}
+input#image{
+    width: 100%;
+    height: 100%;
+        
+}
+div.modal-footer{
+     border: none ;
+}
+#myModal    {width:80%;
+    margin:0 auto;}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.myalert{
+    width:200px;
+    height:20px;
+    height:auto;
+   position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    top: 80px; /* 30px from the bottom */
+    margin-left:-100px;
+   
+    background-color: #c4f9c6;
+    color: #555;
+    font-family: Calibri;
+    font-size: 14px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+}
+.margin_top5{margin-top: 5px}
+
+.width_80{width: 80%}
+.width_50{width: 50%}
+.gravity_center{text-align: center;}
+
+
+
+
+div.list-group{
+    margin-bottom: 0px;
+}
+
+h4.panel-title a{
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 10px 15px;
+     background: #e3b0f9;
+        border-radius: 5px 5px 0px 0px;
+        color: #555;
+
+}
+
+h4.panel-title a:hover{
+    background: #ba68c8;
+}
+.panel-default > .panel-heading{
+    padding: 0px;
+    background: #e3b0f9;
+}
+
+.icon-bar{background: #555;}
+
+.navbar-toggle .icon-bar{height: 4px;border-radius: px;}
+
+.navbar-toggle{background:#fff;border: 1px solid #999;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 7px 7px;
+        margin-right: 4px;
+   
+}
+div.navbar-header .navbar-left{
+    float: left;
+}
+
+
+.allboxheader{
+   margin-bottom: 5px;border-radius: 5px; padding: 0px;
+}
+
+h4.panel-title a.activetitle{
+    background: #ba68c8;
+    color: yellow;
+}
+a.alladv{cursor: pointer;}
+a#one:hover{color: #555;}
+
+ul.nav.navbar-nav li.active a{transition: 0.3s; background: #ba68c8;
+    border-radius: 0px 0px 5px 5px;
+    color: yellow;
+ }
+.width100{width:100%;}
+a{
+color: #555;   
+  
+}
+a:hover{color: #555;
+  text-decoration: none;
+}
+.btn-success {
+    color: #fff;
+    background-color: #f078e4;
+    border-color: #927b88;
+        padding: 7px 12px;
+}
+     a.btn.btn-success:hover{
+        background-color: #cd31be;
+    }
+button.btn.btn-success:hover{
+        background-color: #cd31be;
+    }
+
+.search_form{display: table;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+#login_form{display:table-cell}
+
+.txtsentadv{padding: 2px}
+
+#myNavbar ul li a:hover{
+     background: #ba68c8;
+    border-radius: 0px 0px 5px 5px;
+    color:yellow
+     
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#main_nav{
+    background: #e3b0f9;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 2px solid #9d7eb8;
+    box-shadow: 0 0 3px 1px #555;
+}
+#brand{
+        width: 42px;
+    height: 36px;
+    padding: 0px;
+}
+
+ul.nav.navbar-nav li a:hover{
+    background: #ba68c8;border-radius:5px;
+        color:#555;
+}
+
+ul.nav.navbar-nav li a{
+     transition: 0.3s;
+   font-size: 16px;
+    margin: 1px;
+}
+.navbar-nav > li > a
+{
+       padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{margin-right: 0px}
+.navbar-brand {
+    font-size: 16px;
+    line-height: 0px;
+    height: 34px;
+    padding-right: 2px;
+}
+
+ul.nav.navbar-nav li{margin-right: 3px;margin-left: 3px}
+.footer{
+    background: #ba68c8;
+    border-top: 2px solid #634f74;
+    box-shadow: 0 0 3px 1px #555;
+}
+
+.list-group-item{
+        background: #f3e5f5;
+    border: 1px solid #999;
+    
+}
+.list-group-item:first-child{
+    border-top-right-radius: 0px; 
+     border-top-left-radius: 0px; 
+}
+
+
+    
+    #snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
